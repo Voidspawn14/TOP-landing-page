@@ -3,6 +3,12 @@ html {
     font-size: 16px;
     font-weight: 300;
     font-family: Roboto, sans-serif;
+}
+
+html,
+.quote,
+.attribution,
+.boxes {
     margin: auto;
 }
 
@@ -123,7 +129,6 @@ button {
 
 .quote {
     max-width: 900px;
-    margin: auto;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -131,7 +136,6 @@ button {
 
 .attribution {
     max-width: 900px;
-    margin: auto;
     text-align: right;
     color: black;
     font-weight: bold;
@@ -180,7 +184,6 @@ button {
 .boxes  {
     max-width: 900px;
     justify-content: space-around;
-    margin: auto;
 }
 
 .pic-caption p {
